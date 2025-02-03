@@ -420,7 +420,7 @@ document.addEventListener("DOMContentLoaded", function(){
         `;
 
         datesContainer.addEventListener("click", function(){
-            window.location.href = "../html/start.html";
+            window.location.href = "../index.html";
         });
 
         datesContainer.style.cursor = "pointer";
