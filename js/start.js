@@ -107,7 +107,7 @@ function handleRetrievalDate(arrivalInput, retrievalInput){
 let destinations = [];
 
 function loadDestinations(){
-    fetch("../xml/destinations.xml")
+    fetch("xml/destinations.xml")
     .then(response => response.text())
     .then(data => {
         const parser = new DOMParser();
@@ -214,7 +214,7 @@ document.getElementById("submit-button").addEventListener("click", function() {
         localStorage.setItem("arrivalDate", arrivalDate);
         localStorage.setItem("retrievalDate", retrievalDate);
 
-        window.location.href = "../html/clothes.html";
+        window.location.href = "html/clothes.html";
     }
 
     else{
