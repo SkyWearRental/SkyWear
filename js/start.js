@@ -227,6 +227,6 @@ document.getElementById("submit-button").addEventListener("click", function() {
         localStorage.setItem("arrivalDate", arrivalDate);
         localStorage.setItem("retrievalDate", retrievalDate);
 
-        window.location.href = "../html/clothes.html"
+        window.location.href = "html/clothes.html"
     }
 })
