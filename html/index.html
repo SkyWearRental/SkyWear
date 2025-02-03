@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Card</title>
+    <link rel="stylesheet" href="../css/start.css">
+    <script src="https://kit.fontawesome.com/0d045f7163.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img class="logo" src="../images/logo/logo_name.png">
+        </div>
+
+        <div class="card-content">
+            <div class="mode-selectors">
+                
+                <div class="icon-container active" id="flight-number-selector">
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                
+                <div class="icon-container" id = "destination-selector">
+                    <i class="fa-solid fa-map-pin"></i>
+                </div>
+            </div>
+        
+            
+            <div class="forms-container">
+                <div class="forms">
+                    <div class="form active" id="flight-number-form">
+                        <span class="form-label">
+                            What's the number of your flight?
+                        </span>
+                        <input class="form-input flight-number-input" id="flight-number" type="text" placeholder="Ex: TAP1111" required>
+                        
+                        <span class="form-label">
+                            When are you arriving there?
+                        </span>
+                        <input class="form-input date-input" id="fn-arrival-date" type="date" required>
+                    
+                        <span class="form-label">
+                            When are you coming back?
+                        </span>
+                        <input class="form-input date-input" id="fn-retrieval-date" type="date" required>
+                    </div>
+                    
+        
+                    <div class="form" id="destination-form">
+                        <span class="form-label">
+                            Where are you going?
+                        </span>
+                        
+                        <div class="auto-complete-container">
+                            <input class="form-input destination-input" id="destination-name" type="text" placeholder="Ex: Lisbon" required>
+                            <div id="autocomplete-list" class="autocomplete-list"></div>
+                        </div>
+                        <span id="warning">We don't have clothes there yet..</span>
+
+                        <span class="form-label">
+                            When are you arriving there?
+                        </span>
+                        <input class="form-input date-input" id="arrival-date" type="datetime-local" required> 
+                    
+                        <span class="form-label">
+                            When are you coming back?
+                        </span>
+                        <input class="form-input date-input" id="retrieval-date" type="datetime-local" required>
+                    </div>
+                </div>
+                <button class="submit-button" id="submit-button">
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="../js/start.js"></script>
+</body>
+</html>

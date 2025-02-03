@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Selection</title>
+    <link rel="stylesheet" href="../css/clothes.css">
+    <script src="https://kit.fontawesome.com/0d045f7163.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="logo" id="logo" src="../images/logo/logo.png">
+        </div>
+        <div class="dates-container">
+            
+        </div>
+        <div class="icons-container">
+             <div class="suitcase-container">
+                <i id="suitcase-icon" class="fa-solid fa-suitcase-rolling"></i>
+                <div class="counter" id="counter">0</div>
+            </div>
+        </div>
+    </header>
+
+    <div id="clothing-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span id="close-cross-clothes" class="close-cross" onclick="closeModal()">&times;</span>
+            </div>
+            <div class="modal-carousel-container">
+            </div>
+            <div class="modal-description-container">
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-modal" class="modal">
+        <div id ="cart-modal-content" class="modal-content">
+            <div id="cart-modal-header" class="modal-header">
+                <span id="cart-title" class="modal-header-title">Your Cart</span>
+                <span id="close-cross-cart" class="close-cross">&times;</span>
+            </div>
+            <div id="modal-items-container" class="modal-items-container">
+
+            </div>
+            <div id="cart-modal-footer" class="modal-footer">
+                <button type="button" id="confirm-order-btn">
+                    Confirm Order
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="email-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-cross" onclick="closeEmailModal()">×</span>
+            </div>
+            <div class="modal-body">
+                <h3>Please Enter Your Email</h3>
+                <form id="email-form">
+                    <input type="email" id="email-input" placeholder="Enter your email" required>
+                    <button type="submit" class="add-to-cart-button" id="send-email-btn">Confirm Order</button>
+                </form>
+                <p id="error-message" style="color: red; display: none;">Please enter a valid email address.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/clothes.js"></script>
+</body>
+</html>

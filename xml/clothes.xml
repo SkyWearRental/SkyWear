@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clothing>
+    <type name="Jackets">
+        <item>
+            <id>1</id>
+            <name>Tommy Hilfiger Wind Jacket</name>
+            <images>
+                <image>../images/clothes/jackets/1/1.png</image>
+                <image>../images/clothes/jackets/1/2.png</image>
+                <image>../images/clothes/jackets/1/3.png</image>
+            </images>
+            <brand>Tommy Hilfiger</brand> 
+            <description>Stay ahead of the elements with this vibrant Tommy Hilfiger wind jacket. Designed in bold red and navy with white accents, it’s as functional as it is stylish. Perfect for EUR S/M sizes, this USA XS jacket is ideal for windy weather while keeping your outfit on point.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price></retail-price>
+        </item>
+        <item>
+            <id>2</id>
+            <name>Quechua Wind Jacket</name>
+            <images>
+                <image>../images/clothes/jackets/2/1.png</image>
+                <image>../images/clothes/jackets/2/2.png</image>
+            </images>
+            <brand>Quechua</brand> 
+            <description>Adventure-ready, this Quechua wind jacket in sleek black is made for performance and durability. This jacket is perfect for outdoor activities or everyday wear.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>50.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>3</id>
+            <name>Zara Rain Jacket</name>
+            <images>
+                <image>../images/clothes/jackets/3/1.png</image>
+                <image>../images/clothes/jackets/3/2.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Face rainy days in style with this Zara rain jacket, featuring a practical hood and double-button detailing for a timeless look. Perfectly tailored for size EUR M, this piece ensures you stay dry without compromising your fashion. Ideal for both casual outings and functional wear.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price></retail-price>
+        </item>
+        <item>
+            <id>4</id>
+            <name>Zara Wool/Blend Shirt Jacket</name>
+            <images>
+                <image>../images/clothes/jackets/4/1.png</image>
+                <image>../images/clothes/jackets/4/2.png</image>
+                <image>../images/clothes/jackets/4/3.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Effortless style meets functionality with this Zara wool-blend shirt jacket. Made with 48% wool, 47% polyester, and 5% other fibers, this piece features a structured design and a versatile pocket detail, perfect for layering on cooler days.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>69.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>5</id>
+            <name>Zara Beige Flannel Winter Jacket</name>
+            <images>
+                <image>../images/clothes/jackets/5/1.png</image>
+                <image>../images/clothes/jackets/5/2.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Stay warm and stylish with this sand-colored flannel winter jacket by Zara. The minimalist design with dual chest pockets and button-down detailing offers a classic touch. This M(EUR) sized jacket is a must-have for layering in colder months.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>35.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>6</id>
+            <name>Uniqlo Grey Zip-Up Hoodie</name>
+            <images>
+                <image>../images/clothes/jackets/6/1.png</image>
+                <image>../images/clothes/jackets/6/2.png</image>
+            </images>
+            <brand>Uniqlo</brand> 
+            <description>Practical and stylish, this grey zip-up hoodie from Uniqlo is wearable for sizes L/M. Designed for ultimate comfort and versatility, it’s perfect for layering or throwing on for a laid-back look.</description>
+            <sizes>
+                <size>
+                    XL
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price></retail-price>
+        </item>
+        <item>
+            <id>7</id>
+            <name>Parajumpers Jacket</name>
+            <images>
+                <image>../images/clothes/jackets/7/1.png</image>
+                <image>../images/clothes/jackets/7/2.png</image>
+            </images>
+            <brand>Parajumpers</brand> 
+            <description>Embrace ultimate winter protection with this premium PARAJUMPERS jacket. Combining functionality and luxury, it features a fur-lined hood and robust design for extreme weather conditions.</description>
+            <sizes>
+                <size>
+                    XL
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>1000.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>8</id>
+            <name>North Face Jacket/Sweater</name>
+            <images>
+                <image>../images/clothes/jackets/8/1.png</image>
+                <image>../images/clothes/jackets/8/2.png</image>
+            </images>
+            <brand>North Face</brand> 
+            <description>Stay warm and stylish with the versatile North Face jacket/sweater. Made from high-quality fleece, it is perfect for layering or as a standalone piece.</description>
+            <sizes>
+                <size>
+                    L
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>150.00 EUR</retail-price>
+        </item>
+    </type>
+    
+    <type name="Sweaters">
+        <item>
+            <id>1</id>
+            <name>Radical 1982 Jacquard Graphic Sweater</name>
+            <images>
+                <image>../images/clothes/sweaters/1/1.png</image>
+                <image>../images/clothes/sweaters/1/2.png</image>
+            </images>
+            <brand>Radical 1982</brand> 
+            <description>Make a bold statement with this knit wool and silk-blend sweater from Radical 1982. Featuring a stunning jacquard graphic pattern throughout, rib-knit finishes, and dropped shoulders, this masterpiece is a true work of art. Crafted with 50% wool, 25% silk, and 25% polyamide, it combines luxury with edgy design.</description>
+            <sizes>
+                <size>
+                    L
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>295.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>2</id>
+            <name>Beverly Hills Polo Club Sweater</name>
+            <images>
+                <image>../images/clothes/sweaters/2/1.png</image>
+            </images>
+            <brand>Polo</brand> 
+            <description>Elevate your casual style with this Beverly Hills Polo Club sweater. Crafted in navy blue, it features an embroidered American flag design and ribbed red-and-white accents. Perfect for layering or standalone wear, combining comfort and timeless charm.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>80.00 EUR</retail-price>
+        </item> 
+        <item>
+            <id>3</id>
+            <name>Navy Blue Half-Zip Sweatshirt</name>
+            <images>
+                <image>../images/clothes/sweaters/3/1.png</image>
+                <image>../images/clothes/sweaters/3/2.png</image>
+            </images>
+            <brand>Polo</brand> 
+            <description>Stay classy and cozy with this navy blue half-zip sweatshirt featuring the signature embroidered Rigby Go logo. Designed for a regular fit, this 100% cotton piece is perfect for casual outings or layering up on cooler days. It's the ultimate mix of style and comfort.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>79.90 EUR</retail-price>
+        </item>
+        <item>
+            <id>4</id>
+            <name>Pull&amp;Bear Graphic Hoodie</name>
+            <images>
+                <image>../images/clothes/sweaters/4/1.png</image>
+                <image>../images/clothes/sweaters/4/2.png</image>
+            </images>
+            <brand>Pull&amp;Bear</brand> 
+            <description>Express your creativity with this Pull and Bear hoodie featuring unique graphic details and "Made of Dreams" typography. Crafted from a comfortable 70% cotton and 30% polyester blend, with secondary fabric elements.</description>
+            <sizes>
+                <size>
+                    XS
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>30.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>5</id>
+            <name>Black Zara Viscose Sweater</name>
+            <images>
+                <image>../images/clothes/sweaters/5/1.png</image>
+                <image>../images/clothes/sweaters/5/2.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Minimalist yet versatile, this black Zara sweater, made from 82% viscose and 18% polyamide, offers a sleek silhouette. Perfect for layering or wearing solo, this piece combines simplicity and sophistication.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>35.85 EUR</retail-price>
+        </item>
+        <item>
+            <id>6</id> 
+            <name>Zara Cotton Yarn Sweater</name>
+            <images>
+                <image>../images/clothes/sweaters/6/1.png</image>
+                <image>../images/clothes/sweaters/6/2.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Elevate your everyday look with this elegant sweater made from cotton yarn fabric. With a Perkins collar, a front zipper closure, and ribbed finishes, it’s both stylish and functional. Crafted from 100% cotton, this piece is a versatile staple for your wardrobe.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>49.95 EUR</retail-price>
+        </item>
+        <item>
+            <id>7</id>
+            <name>Bershka Loose-Fit Beige Hoodie</name>
+            <images>
+                <image>../images/clothes/sweaters/7/1.png</image>
+            </images>
+            <brand>Bershka</brand> 
+            <description>Relax in style with this beige loose-fit hoodie from Bershka. Made with a mix of cotton and polyester, its soft touch and clean look make it the ultimate everyday essential. This is your go-to for casual comfort.</description>
+            <sizes>
+                <size>
+                    L
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>22.00 EUR</retail-price>
+        </item>
+    </type>
+
+    <type name="T-Shirts">
+        <item>
+            <id>1</id>
+            <name>Black T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/1/1.png</image>
+                <image>../images/clothes/tshirts/1/2.png</image>
+            </images>
+            <brand>Bershka</brand> 
+            <description>Keep it simple yet stylish with this black t-shirt from Bershka. Designed for comfort and versatility, it pairs effortlessly with any outfit.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>10.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>2</id>
+            <name>Cream Playboy T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/2/1.png</image>
+                <image>../images/clothes/tshirts/2/2.png</image>
+                <image>../images/clothes/tshirts/2/3.png</image>
+            </images>
+            <brand>Playboy</brand> 
+            <description>Make a statement with this iconic white Playboy t-shirt featuring the signature HUF logo. Perfect for size EU M (wearable as L), this piece is a blend of comfort and trend.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>45.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>3</id>
+            <name>Military-Green Regular Fit T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/3/1.png</image>
+                <image>../images/clothes/tshirts/3/2.png</image>
+            </images>
+            <brand>H&amp;M</brand> 
+            <description>Keep it earthy with this brown/green t-shirt by Playboy. Featuring a regular fit, this piece is ideal for casual, everyday wear.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>6.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>4</id>
+            <name>Intimissimi White Cotton T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/4/1.png</image>
+                <image>../images/clothes/tshirts/4/2.png</image>
+            </images>
+            <brand>Intimissimi</brand> 
+            <description>Discover ultimate comfort with this Extrafine Superior Cotton T-Shirt by Intimissimi. Designed in a classic fit, this versatile piece is perfect for any casual or smart-casual outfit.</description>
+            <sizes>
+                <size>
+                    L
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>19.90 EUR</retail-price>
+        </item>
+        <item>
+            <id>5</id>
+            <name>Black Graphic T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/5/1.png</image>
+                <image>../images/clothes/tshirts/5/2.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Showcase your artistic side with Zara's black t-shirt featuring a vibrant, modern glasses print. This stylish, lightweight tee will make a trendy addition to your wardrobe.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>20.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>6</id>
+            <name>Adidas Blue Branded T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/6/1.png</image>
+                <image>../images/clothes/tshirts/6/2.png</image>
+            </images>
+            <brand>Adidas</brand> 
+            <description>Stay sporty and cool in this iconic Adidas t-shirt with signature stripes and logo. Designed for an athletic or casual fit.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>20.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>7</id>
+            <name>White Oversized T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/7/1.png</image>
+                <image>../images/clothes/tshirts/7/2.png</image>
+            </images>
+            <brand>Bershka</brand> 
+            <description>Keep it relaxed and casual with Bershka’s white oversize t-shirt. Perfect for layering or as a standalone piece.</description>
+            <sizes>
+                <size>
+                    S
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>15.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>8</id>
+            <name>Black Long-Sleeve T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/8/1.png</image>
+                <image>../images/clothes/tshirts/8/2.png</image>
+            </images>
+            <brand>Tezenis</brand> 
+            <description>Tezenis delivers timeless style with this black long-sleeve t-shirt. Crafted for comfort and versatility, it’s ideal for layering or a sleek, standalone look.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>19.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>9</id>
+            <name>Amalfi Design T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/9/1.png</image>
+                <image>../images/clothes/tshirts/9/2.png</image>
+                <image>../images/clothes/tshirts/9/3.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Celebrate coastal vibes with Zara's Amalfi design t-shirt, blending style and comfort. This piece features a creative print that adds flair to your casual wear.</description>
+            <sizes>
+                <size>
+                    L
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>19.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>10</id>
+            <name>Phoenix Suns Basketball T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/10/1.png</image>
+                <image>../images/clothes/tshirts/10/2.png</image>
+            </images>
+            <brand>Phoenix Suns Basketball</brand> 
+            <description>Cheer for your team with this Fruit of the Loom Phoenix Suns basketball t-shirt. Perfect for sports lovers, it offers a relaxed fit in size XL. A must-have for fans!</description>
+            <sizes>
+                <size>
+                    XL
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price></retail-price>
+        </item>
+        <item>
+            <id>11</id>
+            <name>Start Lisbon T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/11/1.png</image>
+                <image>../images/clothes/tshirts/11/2.png</image>
+                <image>../images/clothes/tshirts/11/3.png</image>
+            </images>
+            <brand>Start Lisbon</brand> 
+            <description>Embrace the entrepreneurial spirit with this Start Lisbon t-shirt. Featuring a stylish graphic, it’s perfect for casual outings.</description>
+            <sizes>
+                <size>
+                    L
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>15.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>12</id>
+            <name>Red Santa T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/12/1.png</image>
+                <image>../images/clothes/tshirts/12/2.png</image>
+            </images>
+            <brand></brand> 
+            <description>Add festive cheer to your wardrobe with this bright red Santa t-shirt. Perfect for the holiday season, this piece is ideal for spreading Christmas vibes.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price></retail-price>
+        </item>
+        <item>
+            <id>13</id>
+            <name>"Take it Easy" Blue T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/13/1.png</image>
+                <image>../images/clothes/tshirts/13/2.png</image>
+            </images>
+            <brand></brand> 
+            <description>Keep it cool and casual with this blue "Take It Easy" t-shirt. Perfect for laid-back days, this tee is your go-to for effortless style.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>19.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>14</id>
+            <name>Basic White T-Shirt</name>
+            <images>
+                <image>../images/clothes/tshirts/14/1.png</image>
+                <image>../images/clothes/tshirts/14/2.png</image>
+            </images>
+            <brand>Decathlon</brand> 
+            <description></description>
+            <sizes>
+                <size>
+                    S
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>8.00 EUR</retail-price>
+        </item>
+    </type> 
+
+    <type name="Pants">
+        <item>
+            <id>1</id>
+            <name>Bershka Cargo Pants</name>
+            <images>
+                <image>../images/clothes/pants/1/1.png</image>
+                <image>../images/clothes/pants/1/2.png</image>
+                <image>../images/clothes/pants/1/3.png</image>
+            </images>
+            <brand>Bershka</brand> 
+            <description>Effortless utility meets comfort with these Bershka cargo pants. Featuring a high-fit design, elastic waistband, and functional pockets, these pants are versatile enough for both casual and adventurous outings.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <measurements>
+                <waist></waist>
+                <leg></leg>  
+            </measurements> 
+            <retail-price>30.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>2</id>
+            <name>Zara Chino Straight Fit Pants</name>
+            <images>
+                <image>../images/clothes/pants/2/1.png</image>
+                <image>../images/clothes/pants/2/2.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Refined yet relaxed, these Zara slim straight chinos offer a polished look for any occasion. Made for size EUR 40 (USA 31), they combine comfort and elegance, making them an essential wardrobe staple.</description>
+            <sizes>
+                <size>
+                    40
+                    <available>1</available>
+                </size>
+            </sizes>
+            <measurements>
+                <waist>39 cm</waist>
+                <leg>68 cm</leg>  
+            </measurements> 
+            <retail-price>40.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>3</id>
+            <name>Zara Straight Fit Jeans</name>
+            <images>
+                <image>../images/clothes/pants/3/1.png</image>
+                <image>../images/clothes/pants/3/2.png</image>
+                <image>../images/clothes/pants/3/3.png</image>
+            </images>
+            <brand>Zara</brand> 
+            <description>Bring a vintage vibe to your outfit with Zara’s straight-fit jeans, featuring a trendy washed effect. Comfortable and stylish, these jeans are made for size EUR 40 (USA 31).</description>
+            <sizes>
+                <size>
+                    40
+                    <available>1</available>
+                </size>
+            </sizes>
+            <measurements>
+                <waist>41 cm</waist>
+                <leg>74 cm</leg>  
+            </measurements> 
+            <retail-price>30.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>4</id>
+            <name>Lonsdale Black Joggers</name>
+            <images>
+                <image>../images/clothes/pants/4/1.png</image>
+                <image>../images/clothes/pants/4/2.png</image>
+            </images>
+            <brand>Lonsdale, London</brand> 
+            <description>Elevate your athleisure game with these black jogger pants by Lonsdale, London. Featuring a sleek stripe detail and comfortable fit, they are perfect for casual days or workouts. Available in EU XS (wearable as S).</description>
+            <sizes>
+                <size>
+                    XS
+                    <available>1</available>
+                </size>
+            </sizes>
+            <measurements>
+                <waist></waist>
+                <leg></leg>  
+            </measurements> 
+            <retail-price>30.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>5</id>
+            <name>Bershka Grey Cargo Wide Fit Pants</name>
+            <images>
+                <image>../images/clothes/pants/5/1.png</image>
+                <image>../images/clothes/pants/5/2.png</image>
+            </images>
+            <brand>Bershka</brand> 
+            <description>Step into comfort with Bershka's wide cargo pants. Designed for a relaxed fit with ample pocket space, these grey pants are perfect for an urban, laid-back look.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <measurements>
+                <waist>40 cm</waist>
+                <leg>72 cm</leg>  
+            </measurements> 
+            <retail-price>30.00 EUR</retail-price>
+        </item>
+    </type> 
+
+    <type name="Shorts">
+        <item>
+            <id>1</id>
+            <name>Adidas Short Pants</name>
+            <images>
+                <image>../images/clothes/shorts/1/1.png</image>
+                <image>../images/clothes/shorts/1/2.png</image>
+            </images>
+            <brand>Adidas</brand> 
+            <description>Stay cool and active with these Adidas blue short pants, perfect for workouts or casual wear featuring a comfortable fit.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>17.00 EUR</retail-price>
+        </item>
+    </type>
+
+    <type name="Sleepwear">
+        <item>
+            <id>1</id>
+            <name>Pajama Set</name>
+            <images>
+                <image>../images/clothes/sleepwear/1/1.png</image>
+            </images>
+            <brand>Yamamay</brand> 
+            <description>Relax in style with this Yamamay pajama set. The soft and breathable fabric ensures ultimate comfort for a restful night. Available in size EU M/L, this set is a cozy must-have.</description>
+            <sizes>
+                <size>
+                    M
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price>40.00 EUR</retail-price>
+        </item>
+    </type> 
+</clothing>
