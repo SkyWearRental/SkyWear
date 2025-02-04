@@ -87,21 +87,22 @@ body{
     background-color: var(--card);
     display:flex;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     text-align: center;
     gap: 20px;
     overflow: hidden;
 }
 
 .forms{
-    align-items: stretch;
+    width: 100%;
+    align-items: center;
     text-align: center;
 }
 
 .form{
     display: none;
     flex-direction: column;
-    align-items: stretch;
+    align-items: center;
     text-align: center;
     gap:10px;   
 }
@@ -119,6 +120,7 @@ body{
     border: none;
     background-color:var(--background);
     border-radius: 10px;
+    width: 100%;
     height: 40px;
     font-size: medium;
     text-align: center;
