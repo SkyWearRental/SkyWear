@@ -472,12 +472,12 @@ function getOrderDetails(){
 
     let orderDetails = ""; 
 
-    if(flightNumberGoing && flightNumberGoing != "null" && flightNumberBack && flightNumberBack != "null"){
+    if(flightNumberGoing && flightNumberGoing != "null"){
         orderDetails = `
             Arrival Date: ${arrivalDateObj.toLocaleDateString()}
             Retrieval Date: ${retrievalDateObj.toLocaleDateString()}
             Outbound Flight Number: ${flightNumberGoing}
-            Return Flight Number: ${flightNumberReturn}
+            ${((flightNumberBack && flightNumberBack != "null")? "Return Flight Number:"+flightNumberReturn : "")}
             Cart Items:
             ${cartDetails}
         `;
