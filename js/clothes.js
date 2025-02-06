@@ -473,6 +473,7 @@ function getOrderDetails(){
     let orderDetails = ""; 
 
     if(flightNumberGoing && flightNumberGoing != "null" && flightNumberBack && flightNumberBack != "null"){
+        console.log("FLIGHT NUMBER GOING AND BACK");
         orderDetails = `
             Arrival Date: ${arrivalDateObj.toLocaleDateString()}
             Retrieval Date: ${retrievalDateObj.toLocaleDateString()}
@@ -483,6 +484,7 @@ function getOrderDetails(){
         `;
     }
     else if(flightNumberGoing && flightNumberGoing != "null" && (!flightNumberBack || flightNumberBack == "null")){
+        console.log("FLIGHT NUMBER GOING BUT NO BACK");
         orderDetails = `
             Arrival Date: ${arrivalDateObj.toLocaleDateString()}
             Retrieval Date: ${retrievalDateObj.toLocaleDateString()}
@@ -492,6 +494,7 @@ function getOrderDetails(){
         `;
     }
     else if(destination && destination!="null") {
+        console.log("NO FLIGH NUMBERS, ONLY DESTINATION");
         orderDetails = `
             Arrival Date: ${formattedArrivalDate}
             Retrieval Date: ${formattedRetrievalDate}
@@ -549,7 +552,7 @@ document.getElementById('email-form').addEventListener('submit', function(event)
 
 function confirmOrder(userEmail){
     const orderDetails = getOrderDetails();
-
+    console.log(orderDetails);
     sendAdminEmail(userEmail, orderDetails);
     sendUserEmail(userEmail, orderDetails);
     alert(`Your order has been submitted! We will send you a confirmation to ${userEmail}`);
