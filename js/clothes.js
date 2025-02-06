@@ -472,17 +472,25 @@ function getOrderDetails(){
 
     let orderDetails = ""; 
 
-    if(flightNumberGoing && flightNumberGoing != "null"){
+    if(flightNumberGoing && flightNumberGoing != "null" && flightNumberBack && flightNumberBack != "null"){
         orderDetails = `
             Arrival Date: ${arrivalDateObj.toLocaleDateString()}
             Retrieval Date: ${retrievalDateObj.toLocaleDateString()}
             Outbound Flight Number: ${flightNumberGoing}
-            ${((flightNumberBack && flightNumberBack != "null")? "Return Flight Number:"+flightNumberReturn : "")}
+            Return Flight Number: ${flightNumberBack}
             Cart Items:
             ${cartDetails}
         `;
     }
-
+    else if(flightNumberGoing && flightNumberGoing != "null" && (!flightNumberBack || flightNumberBack == "null")){
+        orderDetails = `
+            Arrival Date: ${arrivalDateObj.toLocaleDateString()}
+            Retrieval Date: ${retrievalDateObj.toLocaleDateString()}
+            Outbound Flight Number: ${flightNumberGoing}
+            Cart Items:
+            ${cartDetails}
+        `;
+    }
     else if(destination && destination!="null") {
         orderDetails = `
             Arrival Date: ${formattedArrivalDate}
