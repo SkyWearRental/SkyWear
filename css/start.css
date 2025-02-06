@@ -105,6 +105,7 @@ body{
     align-items: center;
     text-align: center;
     gap:10px;   
+    width: 100%;
 }
 
 .form.active{
@@ -126,12 +127,14 @@ body{
     text-align: center;
 }
 
-.form-input::placeholder{
-    color: lightgray;
-}
 .auto-complete-container {
     position: relative;
     width: 100%;
+}
+
+.form-input:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
 #destination-name{
@@ -176,7 +179,7 @@ body{
     color: white;
     font-weight: bold;
     font-size: 15px;
-    height: 30px;
+    width: 100%;
     cursor: pointer;
     padding: 10px;
     display: flex;

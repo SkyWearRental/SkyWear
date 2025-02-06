@@ -90,27 +90,10 @@
         </item>
         <item>
             <id>6</id>
-            <name>Uniqlo Grey Zip-Up Hoodie</name>
+            <name>Parajumpers Jacket</name>
             <images>
                 <image>../images/clothes/jackets/6/1.png</image>
                 <image>../images/clothes/jackets/6/2.png</image>
-            </images>
-            <brand>Uniqlo</brand> 
-            <description>Practical and stylish, this grey zip-up hoodie from Uniqlo is wearable for sizes L/M. Designed for ultimate comfort and versatility, it’s perfect for layering or throwing on for a laid-back look.</description>
-            <sizes>
-                <size>
-                    XL
-                    <available>1</available>
-                </size>
-            </sizes>
-            <retail-price></retail-price>
-        </item>
-        <item>
-            <id>7</id>
-            <name>Parajumpers Jacket</name>
-            <images>
-                <image>../images/clothes/jackets/7/1.png</image>
-                <image>../images/clothes/jackets/7/2.png</image>
             </images>
             <brand>Parajumpers</brand> 
             <description>Embrace ultimate winter protection with this premium PARAJUMPERS jacket. Combining functionality and luxury, it features a fur-lined hood and robust design for extreme weather conditions.</description>
@@ -123,11 +106,11 @@
             <retail-price>1000.00 EUR</retail-price>
         </item>
         <item>
-            <id>8</id>
+            <id>7</id>
             <name>North Face Jacket/Sweater</name>
             <images>
-                <image>../images/clothes/jackets/8/1.png</image>
-                <image>../images/clothes/jackets/8/2.png</image>
+                <image>../images/clothes/jackets/7/1.png</image>
+                <image>../images/clothes/jackets/7/2.png</image>
             </images>
             <brand>North Face</brand> 
             <description>Stay warm and stylish with the versatile North Face jacket/sweater. Made from high-quality fleece, it is perfect for layering or as a standalone piece.</description>
@@ -258,6 +241,23 @@
                 </size>
             </sizes>
             <retail-price>22.00 EUR</retail-price>
+        </item>
+        <item>
+            <id>8</id>
+            <name>Uniqlo Grey Zip-Up Hoodie</name>
+            <images>
+                <image>../images/clothes/sweaters/8/1.png</image>
+                <image>../images/clothes/sweaters/8/2.png</image>
+            </images>
+            <brand>Uniqlo</brand> 
+            <description>Practical and stylish, this grey zip-up hoodie from Uniqlo is wearable for sizes L/M. Designed for ultimate comfort and versatility, it’s perfect for layering or throwing on for a laid-back look.</description>
+            <sizes>
+                <size>
+                    XL
+                    <available>1</available>
+                </size>
+            </sizes>
+            <retail-price></retail-price>
         </item>
     </type>
 

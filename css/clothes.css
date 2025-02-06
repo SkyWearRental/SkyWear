@@ -457,6 +457,11 @@ header {
     background-color: var(--primary-dark);
 }
 
+.modal-footer button:disabled{
+    opacity: 0.5;
+    cursor:not-allowed;
+}
+
 
 /* Modal for email input */
 #email-modal {

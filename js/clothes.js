@@ -237,7 +237,7 @@ function addModalBehavior(card, item){
                         sizeButton.classList.remove("selected");
                         selectedSize = null;
                         addToCartButton.disabled = true;
-                        addToCartButton.textContent = "Add To Cart";
+                        addToCartButton.textContent = "Select a Size";
                     }
                 });
 
@@ -326,6 +326,16 @@ function removeItemFromCart(index){
 function updateCartUI(){
     const counter = document.getElementById("counter");
     counter.innerHTML = cart.length;
+
+    const confirmOrderButton = document.getElementById("confirm-order-btn");
+    if(cart.length > 0){
+        confirmOrderButton.disabled = false;
+        confirmOrderButton.textContent="Confirm Order";
+    }
+    else{
+        confirmOrderButton.disabled = true;
+        confirmOrderButton.textContent="Cart is Empty";
+    }
 }
 
 function cartContains(itemType, itemId, size){
@@ -444,7 +454,8 @@ emailjs.init("EEjH3nxJxcXECaWFW")
 function getOrderDetails(){
     const arrivalDate = localStorage.getItem("arrivalDate");
     const retrievalDate = localStorage.getItem("retrievalDate");
-    const flightNumber = localStorage.getItem("flightNumber");
+    const flightNumberGoing = localStorage.getItem("flightNumberGoing");
+    const flightNumberBack = localStorage.getItem("flightNumberBack");
     const destination = localStorage.getItem("destinationName");
     let cart = localStorage.getItem("cart");
     cart = cart? JSON.parse(cart) : [];
@@ -461,11 +472,12 @@ function getOrderDetails(){
 
     let orderDetails = ""; 
 
-    if(flightNumber && flightNumber != "null"){
+    if(flightNumberGoing && flightNumberGoing != "null" && flightNumberBack && flightNumberBack != "null"){
         orderDetails = `
             Arrival Date: ${arrivalDateObj.toLocaleDateString()}
             Retrieval Date: ${retrievalDateObj.toLocaleDateString()}
-            Flight Number: ${flightNumber}
+            Outbound Flight Number: ${flightNumberGoing}
+            Return Flight Number: ${flightNumberReturn}
             Cart Items:
             ${cartDetails}
         `;

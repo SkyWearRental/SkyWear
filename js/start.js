@@ -28,6 +28,7 @@ function hide(element){
     const inputs = element.querySelectorAll("input");
     inputs.forEach(input => {
         input.value = "";
+
     });
 }
 
@@ -39,10 +40,12 @@ function show(element){
 const arrivalInput = document.getElementById("arrival-date");
 const retrievalInput = document.getElementById("retrieval-date");
 const fnArrivalInput = document.getElementById("fn-arrival-date");
+const fnRetrieval = document.getElementById("flight-number-back");
 const fnRetrievalInput = document.getElementById("fn-retrieval-date");
 
 retrievalInput.disabled = true;
 fnRetrievalInput.disabled = true;
+fnRetrieval.disabled = true;
 
 function getLocalDatetime(){
     const now = new Date();
@@ -61,11 +64,12 @@ today = getLocalDate();
 fnArrivalInput.setAttribute("min", today);
 
 handleRetrievalDateTime(arrivalInput, retrievalInput);
-handleRetrievalDate(fnArrivalInput, fnRetrievalInput);
+handleRetrievalDate(fnArrivalInput, fnRetrievalInput, fnRetrieval);
 
 function handleRetrievalDateTime(arrivalInput, retrievalInput){
     arrivalInput.addEventListener("change", function(){
-        if(arrivalInput.value){
+        console.log("input value changed");
+        if(arrivalInput.value && arrivalInput.value != ""){
             const arrivalDate = new Date(arrivalInput.value);
     
             const nextDay = new Date(arrivalDate);
@@ -83,9 +87,9 @@ function handleRetrievalDateTime(arrivalInput, retrievalInput){
     })
 }
 
-function handleRetrievalDate(arrivalInput, retrievalInput){
+function handleRetrievalDate(arrivalInput, retrievalInput, fnRetrieval){
     arrivalInput.addEventListener("change", function(){
-        if(arrivalInput.value){
+        if(arrivalInput.value && arrivalInput.value != ""){
             const arrivalDate = new Date(arrivalInput.value);
 
             const nextDay = new Date(arrivalDate);
@@ -95,8 +99,11 @@ function handleRetrievalDate(arrivalInput, retrievalInput){
 
             retrievalInput.min = nextDayFormatted;
             retrievalInput.disabled = false;
+            fnRetrieval.disabled = false;
         }
         else{
+            fnRetrieval.disabled = true;
+            fnRetrieval.value = "";
             retrievalInput.disabled = true;
             retrievalInput.value = "";
         }
@@ -210,7 +217,8 @@ document.getElementById("submit-button").addEventListener("click", function() {
         const retrievalDate = document.getElementById("retrieval-date").value;
 
         localStorage.setItem("destinationName", destinationName);
-        localStorage.setItem("flightNumber", null);
+        localStorage.setItem("flightNumberGoing", null);
+        localStorage.setItem("flightNumberBack", null);
         localStorage.setItem("arrivalDate", arrivalDate);
         localStorage.setItem("retrievalDate", retrievalDate);
 
@@ -218,12 +226,14 @@ document.getElementById("submit-button").addEventListener("click", function() {
     }
 
     else{
-        const flightNumber = document.getElementById("flight-number").value.trim();
+        const flightNumberGoing = document.getElementById("flight-number-going").value.trim();
+        const flightNumberBack = document.getElementById("flight-number-back").value.trim();
         const arrivalDate = document.getElementById("fn-arrival-date").value;
         const retrievalDate = document.getElementById("fn-retrieval-date").value;
         
         localStorage.setItem("destinationName", null);
-        localStorage.setItem("flightNumber", flightNumber);
+        localStorage.setItem("flightNumberGoing", flightNumberGoing);
+        localStorage.setItem("flightNumberBack", flightNumberBack);
         localStorage.setItem("arrivalDate", arrivalDate);
         localStorage.setItem("retrievalDate", retrievalDate);
 

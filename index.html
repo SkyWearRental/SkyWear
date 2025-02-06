@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Card</title>
+    <link rel="icon" type="image/png" href="images/logo/logo_name.png">
+    <title>SkyWear Rental</title>
     <link rel="stylesheet" href="css/start.css">
     <script src="https://kit.fontawesome.com/0d045f7163.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
@@ -33,19 +34,22 @@
                 <div class="forms">
                     <div class="form active" id="flight-number-form">
                         <span class="form-label">
-                            What's the number of your flight?
+                            What flight will take you there?
                         </span>
-                        <input class="form-input flight-number-input" id="flight-number" type="text" placeholder="Ex: TAP1111" required>
-                        
+                        <input class="form-input flight-number-input" id="flight-number-going" type="text" placeholder="Ex: TAP1111" required>
                         <span class="form-label">
                             When are you arriving there?
                         </span>
-                        <input class="form-input date-input" id="fn-arrival-date" type="date" required>
+                        <input class="form-input date-input" id="fn-arrival-date" type="date" placeholder="mm/dd/yyyy" required>
                     
+                        <span class="form-label">
+                            What flight will take you back? (Optional)
+                        </span>
+                        <input class="form-input flight-number-input" id="flight-number-back" type="text" placeholder="Ex: TAP1111">
                         <span class="form-label">
                             When are you coming back?
                         </span>
-                        <input class="form-input date-input" id="fn-retrieval-date" type="date" required>
+                        <input class="form-input date-input" id="fn-retrieval-date" type="date" placeholder="mm/dd/yyyy" required>
                     </div>
                     
         
@@ -63,21 +67,19 @@
                         <span class="form-label">
                             When are you arriving there?
                         </span>
-                        <input class="form-input date-input" id="arrival-date" type="datetime-local" required> 
+                        <input class="form-input date-input" id="arrival-date" type="datetime-local" placeholder="mm/dd/yyyy --:-- --" required> 
                     
                         <span class="form-label">
                             When are you coming back?
                         </span>
-                        <input class="form-input date-input" id="retrieval-date" type="datetime-local" required>
+                        <input class="form-input date-input" id="retrieval-date" type="datetime-local" placeholder="mm/dd/yyyy --:-- --"required>
                     </div>
                 </div>
-                <button class="submit-button" id="submit-button">
-                    Search
-                </button>
+                <button class="submit-button" id="submit-button"></button>
             </div>
         </div>
     </div>
 
-    <script src="js/start.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
